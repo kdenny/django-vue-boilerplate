@@ -1,0 +1,11 @@
+# [START runtime]
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT api_boilerplate.wsgi
+
+beta_settings:
+    cloud_sql_instances: globekit-cms:us-east1:globekit-cms
+
+runtime_config:
+  python_version: 2
+# [END runtime]

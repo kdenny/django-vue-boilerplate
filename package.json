@@ -1,0 +1,49 @@
+{
+  "name": "globekit-cms",
+  "version": "1.0.0",
+  "description": "A CMS for the globekit project using Django and Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdenny/django-rest-boilerplate.git"
+  },
+  "keywords": [
+    "django"
+  ],
+  "author": "Kevin Denny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdenny/django-rest-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kdenny/django-rest-boilerplate#readme",
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0",
+    "lodash": "^4.16.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "vue": "^2.0.1",
+    "webpack": "^2.6.1",
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-stage-0": "^6.1.2",
+    "babel-runtime": "^5.8.0",
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0",
+    "vue-loader": "^7.3.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-hot-reload-api": "^1.2.0"
+  },
+  "dependencies": {
+    "vue-google-autocomplete": "^1.0.15",
+    "vue-resource": "^1.5.0",
+    "vue-select": "^2.4.0",
+    "webpack-bundle-tracker": "^0.3.0"
+  }
+}
