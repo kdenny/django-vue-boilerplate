@@ -1,7 +1,7 @@
 # REST API boilerplate
 ## Django REST application with Vue frontend
 
-See version running on server at http://globekit-cms.appspot.com/
+See example app running on server at http://globekit-cms.appspot.com/
 
 ### Installing and running locally
 
@@ -18,3 +18,13 @@ See version running on server at http://globekit-cms.appspot.com/
 
 1. ./node_modules/.bin/webpack
 2. python manage.py collectstatic
+
+### Project Structure
+
+1. Traditional Django REST framework app split across 2 apps, globekit_api and publisher_admin
+2. A very lightweight, runtime-only Vue.js application that lives within the /assets/js folder
+
+
+#### Thank you to:
+- @michaelbukachi for the awesome tutorial that this is loosely based on: https://github.com/michaelbukachi/django-vuejs-tutorial/wiki/Django-Vue.js-Integration-Tutorial
+- The django-webpack-loader package that enables the integration here
