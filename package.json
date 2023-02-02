@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "vue-google-autocomplete": "^1.0.15",
-    "vue-resource": "^1.5.0",
+    "vue-resource": "^1.5.3",
     "vue-select": "^2.4.0",
     "webpack-bundle-tracker": "^0.3.0"
   }
